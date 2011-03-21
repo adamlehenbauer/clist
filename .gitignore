@@ -1,0 +1,8 @@
+pom.xml
+*jar
+lib
+classes
+.classpath
+.project
+contrib
+target

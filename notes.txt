@@ -1,0 +1,14 @@
+compojure & ring overview: http://groups.google.com/group/compojure/msg/9b9c01a737242b58?
+clojure toolbox: http://www.clojure-toolbox.com/
+lots of resources: http://java.ociweb.com/mark/clojure/
+
+namespaces (http://www.tbray.org/ongoing/When/200x/2009/11/03/Clojure-N00b-Advice#c1257287292.614475):
+
+'ns' creates a new namespace
+'require' loads a ns from the cp
+'use' loads a ns with functions available without ns qualification
+'import' is 'use' for java classes
+
+http://mmcgrana.github.com/2010/07/develop-deploy-clojure-web-applications.html
+
+other database options: http://stackoverflow.com/questions/294802/use-a-database-with-clojure

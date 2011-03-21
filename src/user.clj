@@ -1,0 +1,1 @@
+;(require 'clist.db '[clojure.contrib.sql :as sql])
