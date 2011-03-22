@@ -12,3 +12,7 @@ namespaces (http://www.tbray.org/ongoing/When/200x/2009/11/03/Clojure-N00b-Advic
 http://mmcgrana.github.com/2010/07/develop-deploy-clojure-web-applications.html
 
 other database options: http://stackoverflow.com/questions/294802/use-a-database-with-clojure
+
+http://www.bestinclass.dk/index.clj/2010/02/reddit-clone-in-10-minutes-and-91-lines-of-clojure.html
+
+vim: http://writequit.org/blog/?p=386
