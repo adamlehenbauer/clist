@@ -1,9 +1,12 @@
 (ns clist.web
-  (:use compojure.core ring.adapter.jetty clist.db)
+  (:use compojure.core ring.adapter.jetty)
   (:use hiccup.core)
   (:use hiccup.page-helpers)
+  (:require [clist.db :as db])
   (:require [compojure.route :as route])
   (:require [compojure.handler :as handler]))
+
+(def online-users (ref {}))
 
 (defn view-layout [& content]
   (html
@@ -14,6 +17,9 @@
                :content "text/html; charset=utf-8"}]
        [:title "clist"]]
       [:body content])))
+
+(defn add-item [summary url]
+  (db/insert summary url))
 
 (defroutes main-routes
   (GET "/" [] "<h1>Hello at world</h1>")
@@ -26,7 +32,7 @@
        (map #(vec 
                [:li 
                 [:a {:href (:url %)}
-                (:summary %)]]) (select-from-db))]))
+                (:summary %)]]) (db/select-from-db))]))
   
   (route/not-found "<h1>Page not found</h1>"))
 
