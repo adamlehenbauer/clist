@@ -14,7 +14,9 @@
     [1 "Bullet Earphones" "http://store.munitio.com/siti-s-bullet-earphones.html" (now)]
     [1 "Modernist Cuisine" "http://www.amazon.com/Modernist-Cuisine-Art-Science-Cooking/dp/0982761007/ref=sr_1_1?s=books&ie=UTF8&qid=1300733351&sr=1-1" (now)]
     [1 "Art of Computer Programming, Vols 1-4A" "http://www.amazon.com/Computer-Programming-Volumes-1-4A-Boxed/dp/0321751043/ref=sr_1_2?s=books&ie=UTF8&qid=1300733453&sr=1-2" (now)]
-    [1 "Sausage Grinder" "http://www.amazon.com/Villaware-V268-10-Manual-Meat-Grinder/dp/B000I1YIW2" (now)]))
+    [1 "Sausage Grinder" "http://www.amazon.com/Villaware-V268-10-Manual-Meat-Grinder/dp/B000I1YIW2" (now)]
+    [1 "Copper Sauté Pan" "http://brooklyncoppercookware.com/sautepan.html" (now)]
+    [1 "Landscape with Monsters" "http://imgur.com/gallery/Oujbl" (now)]))
 
 (defn create-items
   []
